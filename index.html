@@ -1,11 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 5</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+
+<body class="bg-slate-200 mx-36">
+
+    <section class="">
+        <nav class="bg-slate-100 mt-6 rounded-2xl px-6 py-4">
+            <div class="flex justify-between">
+                <div class="flex items-center gap-2">
+                    <img class="w-12 h-12" src="assets/logo.png" alt="">
+                    <h1> <span class="font-light text-4xl">Dev</span> <span class="font-bold text-4xl">Board</span></h1>
+                </div>
+
+                <div class="flex justify-center items-center gap-12">
+                    <div class="flex bg-slate-200 p-3 check-back">
+                        <img class="h-7 w-7 mr-4" src="assets/checkbox.png" alt="">
+                        <h3 class="text-3xl font-bold">23</h3>
+                    </div>
+
+                    <img class="bg-slate-200 p-2 rounded-full" src="assets/theme-btn.png" alt="">
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- second section -->
+
+
+    <section class="mt-5">
+        <div class="bg-slate-100 w-[1150px] h-[900px] rounded-2xl">
+            <div class="m-6">
+                <!-- Parent div with flex and row direction -->
+                <div class="flex flex-row gap-5">
+                    <!-- First child div -->
+                    <div
+                        class="w-[260px] h-[128px] bg-slate-200 flex items-center justify-center gap-4 mt-5 rounded-xl">
+                        <img class="bg-slate-100 p-3 rounded-full" src="assets/checkbox.png" alt="">
+                        <div>
+                            <h4 class="text-base font-medium text-[#00303C]">Task Assigned</h4>
+                            <h1 class="text-3xl font-bold">05</h1>
+                        </div>
+                    </div>
+
+                    <!-- Second child div -->
+                    <div
+                        class="w-[524px] h-[128px] bg-gradient-to-r from-[#3752fd] via-[#6c7ffa] to-[#9ba8f8] rounded-xl mt-5 gap-5 flex items-center px-10">
+                        <img src="assets/board.png" alt="">
+                        <div>
+                            <h3 class="font-medium text-[22px] text-white">Discover Something <br>New Today!</h3>
+                        </div>
+                    </div>
+
+                    <!-- Third child div -->
+                    <div
+                        class="w-[260px] h-[128px] bg-slate-200 flex items-center justify-center gap-5 mt-5 rounded-xl">
+                        <img class="bg-slate-100 p-3 rounded-full" src="assets/calender.png" alt="">
+                        <div>
+                            <span class="text-[22px]">Wed</span> ,<br>
+                            <span class="text-[22px] font-bold">Jul 28 2025</span>
+                        </div>
+                    </div>
+                </div>
+                <hr class=" border border-gray-300 border-dashed  mt-6">
+
+
+                <!-- design box section -->
+                <div class="mt-8 grid grid-cols-3 gap-9">
+                    <div class="box bg-slate-200">
+                        <p class="bg-slate-100 w-[114px] h-[37px] flex justify-center items-center rounded-lg">ShopEase</p>
+                        <h3 class="text-2xl font-medium mt-4">Fix Mobile Button Issue </h3>
+                        <p class="bg-slate-100 w-[262px] h-[60px] text-sm  overflow-hidden whitespace-nowrap truncate-text text-ellipsis hover:whitespace-normal hover:overflow-visible hover:text-clip p-4 rounded-lg mt-3">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                        <hr class=" border border-gray-300 border-dashed mt-4">
+                        <div class="mt-8 flex justify-center items-center gap-10 ">
+                            <div>
+                                <p class="text-sm font-normal">Deadline</p>
+                                <h4>21 March 2025</h4>
+                            </div>
+                            <button class="btn">Completed</button>
+                        </div>
+                    </div>
+                    <div class="box bg-slate-200">
+                        <p class="bg-slate-100 w-[114px] h-[37px] flex justify-center items-center rounded-lg">CloudSync</p>
+                        <h3 class="text-2xl font-medium mt-4">Add Dark Mode </h3>
+                        <p class="bg-slate-100 w-[262px] h-[60px] text-sm  overflow-hidden whitespace-nowrap truncate-text text-ellipsis hover:whitespace-normal hover:overflow-visible hover:text-clip p-4 rounded-lg mt-3">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+                        <hr class=" border border-gray-300 border-dashed mt-4">
+                        <div class="mt-8 flex justify-center items-center gap-10 ">
+                            <div>
+                                <p class="text-sm font-normal">Deadline</p>
+                                <h4>21 March 2025</h4>
+                            </div>
+                            <button class="btn">Completed</button>
+                        </div>
+                    </div>
+                    <div class="box bg-slate-200">
+                        <p class="bg-slate-100 w-[114px] h-[37px] flex justify-center items-center rounded-lg">SwiftPay</p>
+                        <h3 class="text-2xl font-medium mt-4">Optimize  Home page</h3>
+                        <p class="bg-slate-100 w-[262px] h-[60px] text-sm  overflow-hidden whitespace-nowrap truncate-text text-ellipsis hover:whitespace-normal hover:overflow-visible hover:text-clip p-4 rounded-lg mt-3">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                        <hr class=" border border-gray-300 border-dashed mt-4">
+                        <div class="mt-8 flex justify-center items-center gap-10 ">
+                            <div>
+                                <p class="text-sm font-normal">Deadline</p>
+                                <h4>21 March 2025</h4>
+                            </div>
+                            <button class="btn">Completed</button>
+                        </div>
+                    </div>
+                    <div class="box bg-slate-200">
+                        <p class="bg-slate-100 w-[114px] h-[37px] flex justify-center items-center rounded-lg">Meta</p>
+                        <h3 class="text-2xl font-medium mt-4">Add new emoji 🤲</h3>
+                        <p class="bg-slate-100 w-[262px] h-[60px] text-sm  overflow-hidden whitespace-nowrap truncate-text text-ellipsis hover:whitespace-normal hover:overflow-visible hover:text-clip p-4 rounded-lg mt-3">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                        <hr class=" border border-gray-300 border-dashed mt-4">
+                        <div class="mt-8 flex justify-center items-center gap-10 ">
+                            <div>
+                                <p class="text-sm font-normal">Deadline</p>
+                                <h4>21 March 2025</h4>
+                            </div>
+                            <button class="btn">Completed</button>
+                        </div>
+                    </div>
+                    <div class="box bg-slate-200">
+                        <p class="bg-slate-100 w-[114px] h-[37px] flex justify-center items-center rounded-lg">Google LLC</p>
+                        <h3 class="text-2xl font-medium mt-4">Integrate OpenAI API </h3>
+                        <p class="bg-slate-100 w-[262px] h-[60px] text-sm  overflow-hidden whitespace-nowrap truncate-text text-ellipsis hover:whitespace-normal hover:overflow-visible hover:text-clip p-4 rounded-lg mt-3">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                        <hr class=" border border-gray-300 border-dashed mt-4">
+                        <div class="mt-8 flex justify-center items-center gap-10 ">
+                            <div>
+                                <p class="text-sm font-normal">Deadline</p>
+                                <h4>21 March 2025</h4>
+                            </div>
+                            <button class="btn">Completed</button>
+                        </div>
+                    </div>
+                    <div class="box bg-slate-200">
+                        <p class="bg-slate-100 w-[114px] h-[37px] flex justify-center items-center rounded-lg">Glassdoar</p>
+                        <h3 class="text-2xl font-medium mt-4">Improve Job searching </h3>
+                        <p class="bg-slate-100 w-[262px] h-[60px] text-sm  overflow-hidden whitespace-nowrap truncate-text text-ellipsis hover:whitespace-normal hover:overflow-visible hover:text-clip p-4 rounded-lg mt-3">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                        <hr class=" border border-gray-300 border-dashed mt-4">
+                        <div class="mt-8 flex justify-center items-center gap-10 ">
+                            <div>
+                                <p class="text-sm font-normal">Deadline</p>
+                                <h4>21 March 2025</h4>
+                            </div>
+                            <button class="btn">Completed</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-slate-100 w-[366px] h-[918]">
+
+        </div>
+    </section>
+
+
+
 </body>
+
 </html>
