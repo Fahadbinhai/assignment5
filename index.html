@@ -22,12 +22,13 @@
                 <div class="flex justify-center items-center gap-12">
                     <div class="flex bg-slate-200 p-3 check-back">
                         <img class="h-7 w-7 mr-4" src="assets/checkbox.png" alt="">
-                        
+
                         <h3 id="big-number" class="text-3xl font-bold">24</h3>
-                        
+
                     </div>
 
-                    <img id="theme-btn" class="bg-slate-200 p-2 rounded-full cursor-pointer" src="assets/theme-btn.png" alt="">
+                    <img id="theme-btn" class="bg-slate-200 p-2 rounded-full cursor-pointer" src="assets/theme-btn.png"
+                        alt="">
                 </div>
             </div>
         </nav>
@@ -43,19 +44,19 @@
                 <div class="flex flex-row gap-5">
                     <!-- First child div -->
                     <div
-                        class="w-[260px] h-[128px] bg-slate-200 flex items-center justify-center gap-4 mt-5 rounded-xl">
+                        class="w-[300px] h-[128px] bg-slate-200 flex items-center justify-center gap-4 mt-5 rounded-xl">
                         <img class="bg-slate-100 p-3 rounded-full" src="assets/checkbox.png" alt="">
                         <div>
                             <h4 class="text-base font-medium text-[#00303C]">Task Assigned</h4>
-                           
+
                             <h1 id="small-number" class="text-3xl font-bold">06</h1>
-                            
+
                         </div>
                     </div>
 
                     <!-- Second child div -->
-                    <div
-                        class="w-[524px] h-[128px] bg-gradient-to-r from-[#3752fd] via-[#6c7ffa] to-[#9ba8f8] rounded-xl mt-5 gap-5 flex items-center px-10">
+                    <div id="discover-new"
+                        class="w-[524px] h-[128px] bg-gradient-to-r from-[#3752fd] via-[#6c7ffa] to-[#9ba8f8] rounded-xl mt-5 gap-5 flex items-center px-10 cursor-pointer">
                         <img src="assets/board.png" alt="">
                         <div>
                             <h3 class="font-medium text-[22px] text-white">Discover Something <br>New Today!</h3>
@@ -64,11 +65,11 @@
 
                     <!-- Third child div -->
                     <div
-                        class="w-[260px] h-[128px] bg-slate-200 flex items-center justify-center gap-5 mt-5 rounded-xl">
+                        class="w-[298px] h-[128px] bg-slate-200 flex items-center justify-center gap-5 mt-5 rounded-xl">
                         <img class="bg-slate-100 p-3 rounded-full" src="assets/calender.png" alt="">
                         <div>
-                            <span class="text-[22px]">Wed</span> ,<br>
-                            <span class="text-[22px] font-bold">Jul 28 2025</span>
+                            <span id="day" class="text-[22px]">Wed</span> ,<br>
+                            <span id="date" class="text-[22px] font-bold">Jul 28 2025</span>
                         </div>
                     </div>
                 </div>
@@ -196,8 +197,8 @@
             <button id="clear-history-btn" class="btn-2 mx-52 my-4">Clear History</button>
             <hr class=" border border-gray-300 border-dashed mt-4">
 
-            <div id="activity-logs"  class="bg-slate-200 m-4 rounded-xl flex flex-col gap-y-3">
-                
+            <div id="activity-logs" class="bg-slate-200 m-4 rounded-xl flex flex-col gap-y-3">
+
             </div>
 
         </div>
@@ -208,6 +209,9 @@
     <script src="jscript/utilities.js"></script>
     <script src="jscript/clear-log.js"></script>
     <script src="jscript/theme-btn.js"></script>
+    <script src="jscript/update-time.js"></script>
+    <script src="jscript/discover-new.js"></script>
+    
 
 </body>
 

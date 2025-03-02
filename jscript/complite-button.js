@@ -34,7 +34,7 @@ completedButtons.forEach(button => {
 
         
         const now = new Date();
-        const timeString = now.toLocaleTimeString(); // Format: "12:48:15 PM"
+        const timeString = now.toLocaleTimeString(); 
 
         
         const logMessage = `You have Complete The Task ${taskName} at ${timeString}`;
@@ -43,7 +43,7 @@ completedButtons.forEach(button => {
         const logDiv = document.createElement("div");
 
         
-        logDiv.className = "p-4 mb-3 bg-white rounded-lg shadow-sm"; // mb-3 diye margin 
+        logDiv.className = "p-4 mb-3 bg-white rounded-lg shadow-sm";  
 
         
         logDiv.innerText = logMessage;
